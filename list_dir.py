@@ -1,3 +1,5 @@
+#!/usr/bin/python3.9
+#This code require the use of the 'os and glob modules
 import os, glob
 print(os.listdir('.'))
 #files = [f for f in os.listdir('.') if os.path.isfile(f) and re.match("\*.edf", f)]
